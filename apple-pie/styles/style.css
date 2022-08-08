@@ -54,6 +54,39 @@ html {
     width:67%;
     margin: 20px 0px 0px 16.5%;
 }
+
+.h2-setup {
+    font-size: 1.25em;
+    margin: 50px 0px 0px 16.5%;
+}
+
+.ul-setup{
+    list-style: none;
+}
+
+.ul-setup li::before{
+    content:"-";
+    margin: 1px 0px 0px 15%;
+    border: 1px solid black;
+}
+
+.img-cooking-setup {
+    border: 1px solid black;
+    height:60px;
+    width:30%;
+    margin:10px 0px 0px 35%;
+}
+
+.ol-setup {}
+
+.ol-setup li{
+    list-style: none;
+    width: 69%;
+    margin: 1px 0px 0px 15%;
+    border: 1px solid black;
+}
+
+
 /*
 .apple-image{
     width: 100%;

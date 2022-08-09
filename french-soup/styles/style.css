@@ -1,9 +1,55 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  margin: 0px;
+}
+
+.setup{
+    border: 1px solid red;
+    width:800px;
+    margin: 0px 0px 0px 100px;
+}
+
+.relativeclass{
+  position: relative;
+}
+
+.img-soup{
+  width:1000px;
+}
+
+.h1-setup{
+  position: absolute;
+  margin: 0px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+/*
+.img-soup{
+  display: block;
+  width: 1000px;
+  margin-left: -100px;
+}
+
+.cropped1 {
+  width: 1000px;
+  height: 450px;
+  object-fit:cover;
+  object-position: 0px -350px;
+  border: 2px solid green;
+}
+
+.h1-setup{
+  font-size: 2em;
+  width: 30%;
+  text-align: center;
+  border: 1px solid black;
+  box-sizing:border-box;
+  margin: 0px;
+  position:absolute; 
 }
